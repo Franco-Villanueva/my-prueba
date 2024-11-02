@@ -20,6 +20,6 @@ export class DashboardComponent {
   // }
 
   handlerClick() {
-    this.text = 'dashboard text changed';
+    this.text = 'dashboard text changed by padre';
   }
 }

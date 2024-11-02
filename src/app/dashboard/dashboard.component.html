@@ -1,3 +1,4 @@
 <p>dashboard works!</p>
-<button (click)="handlerClick()" >change text</button>
-<app-dashboard-child [text]="text"/>
+<button (click)="handlerClick()" >change text by padre</button>
+<h2>TEXTO PADRE:{{text}}</h2>
+<app-dashboard-child [(text)]="text"/>
